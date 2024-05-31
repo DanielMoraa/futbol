@@ -1,0 +1,63 @@
+/* Mi primera página de estilos */
+
+body{
+    background-color: bisque;
+    font-family: sans-serif;
+    margin: 0; /*Margen 0 = Usa todo el ancho y alto del navegador*/
+}
+
+header {
+    position:  fixed;  /*Más importante, posición: fijo*/
+    background-color: #6666ff;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100%; /*Utiliza porcentaje*/
+    height: 110px;/*Utiliza pixeles*/
+    padding: 0 10px ;
+}
+
+aside {
+    position:  fixed;  /*Más importante, posición: fijo*/
+    background-color: #339900;
+    top: 110px; /*Tiene correlación al height*/
+    left: 0;
+    width: 20%; /*Utiliza porcentaje*/
+    bottom: 20px;/*Utiliza pixeles*/
+    padding: 10px;
+}
+
+section {
+    overflow-y: scroll;
+    position:  fixed;  /*Más importante, posición: fijo*/
+    background-color: #999900;
+    top: 110px; /*Tiene correlación al height*/
+    left: 20%; /*20% del ancho del browser*/
+    width: 80%; /*Utiliza porcentaje*/
+    bottom: 20px;/*Utiliza pixeles*/
+    padding: 10px;
+}
+
+footer {
+    position:  fixed;  /*Más importante, posición: fijo*/
+    background-color: black;
+    text-align: center;
+    color: white;
+    left: 0; /*20% del ancho del browser*/
+    width: 100%; /*Utiliza porcentaje*/
+    bottom: 0;/*Utiliza pixeles*/
+    height: 20px;
+}
+
+a {
+    text-decoration: none;  /*Se quita el subrayado*/
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: black;
+    text-decoration: underline;
+}
