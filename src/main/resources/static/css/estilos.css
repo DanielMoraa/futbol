@@ -1,15 +1,15 @@
 /* Mi primera página de estilos */
 
 body{
-    background-color: bisque;
+    background-color: white;
     font-family: sans-serif;
     margin: 0; /*Margen 0 = Usa todo el ancho y alto del navegador*/
 }
 
-header {
+.encabezado {
     position:  fixed;  /*Más importante, posición: fijo*/
-    background-color: #6666ff;
-    color: white;
+    background-color: #6441a5;
+    color: black;
     top: 0;
     left: 0;
     width: 100%; /*Utiliza porcentaje*/
@@ -17,12 +17,18 @@ header {
     padding: 0 10px ;
 }
 
+p, h1,h2,h3, figcaption{
+color: white;    
+}
+
+
+
 aside {
     position:  fixed;  /*Más importante, posición: fijo*/
-    background-color: #339900;
+    background-color: black;
     top: 110px; /*Tiene correlación al height*/
     left: 0;
-    width: 20%; /*Utiliza porcentaje*/
+    width: 10%; /*Utiliza porcentaje*/
     bottom: 20px;/*Utiliza pixeles*/
     padding: 10px;
 }
@@ -30,10 +36,10 @@ aside {
 section {
     overflow-y: scroll;
     position:  fixed;  /*Más importante, posición: fijo*/
-    background-color: #999900;
+    background-color: black;
     top: 110px; /*Tiene correlación al height*/
-    left: 20%; /*20% del ancho del browser*/
-    width: 80%; /*Utiliza porcentaje*/
+    left: 10%; /*20% del ancho del browser*/
+    width: 90%; /*Utiliza porcentaje*/
     bottom: 20px;/*Utiliza pixeles*/
     padding: 10px;
 }
@@ -49,7 +55,16 @@ footer {
     height: 20px;
 }
 
-a {
+
+
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav-menu-link {
     text-decoration: none;  /*Se quita el subrayado*/
     color: white;
     padding: 5px;
@@ -57,7 +72,31 @@ a {
     border-radius: 5px;
 }
 
-a:hover{
-    background-color: black;
-    text-decoration: underline;
+.nav-menu-link:hover{
+    background-color: blue;
+}
+
+
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: serif;
+    padding: 0 40px;
+    line-height: 100px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 100px;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }

@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.tienda</groupId>
-    <artifactId>tienda</artifactId>
+    <artifactId>futbol</artifactId>
     <version>1</version>
-    <name>tienda</name>
+    <name>futbol</name>
     <description>Proyecto hecho en clase de Web y Patrones</description>
     <properties>
         <java.version>22</java.version>
