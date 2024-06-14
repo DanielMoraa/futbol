@@ -12,7 +12,7 @@
     <artifactId>futbol</artifactId>
     <version>1</version>
     <name>futbol</name>
-    <description>Proyecto hecho en clase de Web y Patrones</description>
+    <description>Práctica 2</description>
     <properties>
         <java.version>22</java.version>
     </properties>
